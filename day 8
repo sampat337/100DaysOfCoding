@@ -1,0 +1,20 @@
+/*day 8 of hundred days of coding challanege */
+
+
+//The challenge here is to read  lines of input until you reach EOF, then number and print all  lines of conten
+
+
+import java.io.*;
+import java.util.*;
+
+public class aman {
+
+    public static void main(String[] args) {
+   Scanner a = new Scanner(System.in);
+    for(int i=1 ; a.hasNext() ; i++)
+      {
+      System.out.println(i+" "+a.nextLine());
+       }
+    
+    }
+   }  
