@@ -1,0 +1,27 @@
+/*day 9 @hundreddaysofcoding challange */
+
+// problem static instializer block 
+
+
+import java.io.*;
+import java.util.*;
+
+public class Sol {
+
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        int B=a.nextInt();
+        int H=a.nextInt();
+         if(B<=0 && H<=0)
+          { 
+              System.out.println("area"+" "+B*H);
+            
+          }
+          else
+           {
+               System.out.println("java.lang.Exception: Breadth and height must be positive");
+               
+           }
+        
+    }
+}
