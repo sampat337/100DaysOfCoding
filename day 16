@@ -1,0 +1,25 @@
+/* day 16 at hundred days of coding challenge 
+
+problem : Given a string , print Yes if it is a palindrome, print No otherwise.
+
+*/
+
+
+
+
+import java.io.*;
+import java.util.*;
+
+
+public class string {
+    public static void main(String[] args) {
+        Scanner r = new Scanner(System.in);
+        String A = r.next();
+        String B = new StringBuilder(A).reverse().toString();
+        if (A.equals(B)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
