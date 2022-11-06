@@ -1,0 +1,41 @@
+/*  day 17@ hundread days of coding
+
+problem : 
+/* day 17 at hundread days of coding challange 
+
+problem : https://www.hackerrank.com/challenges/java-inheritance-1/problem?isFullScreen=true
+ */
+ 
+ 
+
+import java.io.*;
+import java.util.*;
+
+class a {
+
+ public void walk() 
+  {
+    System.out.println("I am walking");
+  }
+}
+class brf extends a 
+{
+public void fly()
+ {
+    System.out.println("I am flying");
+ }
+
+public void sing()
+    {
+      System.out.println("I am singing");  
+    }
+ }
+ public class dr
+ {
+     public static void main(String[] args) {
+     brf r = new brf();
+     r.walk();
+     r.fly();
+     r.sing();
+    }
+ }
