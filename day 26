@@ -1,0 +1,40 @@
+/*
+
+exception handling
+
+question : write a program to show arithmatic exception 
+
+explanation 
+ first we take 3 varible one as int with assigned value 
+ another int in which we have to assign the value 
+ then we take another varioable in which we save the result of the arithmatic operations 
+ 1 secanior in which user get the normal no then the operation would performe and show the result and try catch block get excluded 
+ 
+ 2 scenarion = in this user input shoud be 0 then try and catch block activate and show the message .
+*/
+
+
+import java.util.*;
+
+
+
+class ex{  
+    public static void main(String args[]){  
+    int a =  20;
+    int b ;
+    System.out.println(a);
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter value");
+    b = sc.nextInt();
+    try
+    {
+        int c = a/b;
+    System.out.println("result is "+c);
+
+    }
+    catch(Exception e)
+    {
+        System.out.println("wrong output");
+    }
+
+    } 
