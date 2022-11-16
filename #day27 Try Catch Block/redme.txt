@@ -1,0 +1,28 @@
+The ArrayIndexOutOfBoundsException is one of the most common errors in Java. 
+It occurs when a program attempts to access an invalid index in an array 
+i.e. an index that is less than 0, or equal to or greater than the length of the array.
+
+
+
+ input 
+ 1 
+  output 
+  23 
+  // if we get input value of array index 1 then the code ecexute and give the value at array index no 1 . 
+  
+  
+  input 
+  2
+  output 
+  43
+  // if we get input value of array index 2 then the code ecexute and give the value at array index no 2 .
+  
+  
+  input 
+  6 
+  output 
+  array index out of bound 
+  // when we take the value of i more than 2 it shows the exception 
+  
+    array index out of bound beacuse we have only initilize the value of array a upto its index 3 
+     so when we take input value more than 2 its sows exception . 
